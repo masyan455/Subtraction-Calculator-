@@ -29,6 +29,7 @@ Partial Class Form1
         Me.Label3 = New System.Windows.Forms.Label()
         Me.Button1 = New System.Windows.Forms.Button()
         Me.Label2 = New System.Windows.Forms.Label()
+        Me.Button2 = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'TextBox1
@@ -88,11 +89,21 @@ Partial Class Form1
         Me.Label2.TabIndex = 7
         Me.Label2.Text = "ใส่ตัวเลข 2"
         '
+        'Button2
+        '
+        Me.Button2.Location = New System.Drawing.Point(353, 266)
+        Me.Button2.Name = "Button2"
+        Me.Button2.Size = New System.Drawing.Size(94, 29)
+        Me.Button2.TabIndex = 8
+        Me.Button2.Text = "Reset"
+        Me.Button2.UseVisualStyleBackColor = True
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 20.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(578, 450)
+        Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.Label3)
@@ -114,4 +125,5 @@ Partial Class Form1
     Friend WithEvents Label3 As Label
     Friend WithEvents Button1 As Button
     Friend WithEvents Label2 As Label
+    Friend WithEvents Button2 As Button
 End Class
