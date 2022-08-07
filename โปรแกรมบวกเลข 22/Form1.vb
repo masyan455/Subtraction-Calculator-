@@ -1,0 +1,16 @@
+﻿Public Class Form1
+
+    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
+        Dim a, b, c As Single
+        a = TextBox1.Text
+        b = TextBox2.Text
+        c = a - b
+        TextBox3.Text = c
+    End Sub
+
+    Private Sub Button2_Click(sender As Object, e As EventArgs) 
+        TextBox1.Text = ""
+        TextBox2.Text = ""
+        TextBox3.Text = ""
+    End Sub
+End Class
